@@ -33,8 +33,6 @@ h1 {
 #funnyPhoto {
   width: 100%;
   max-width: 300px;
-  border-radius: 50%;
-  border: 5px solid #ff6f61;
   margin-bottom: 15px;
 }
 
