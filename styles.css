@@ -54,3 +54,33 @@ button {
 button:hover {
   background-color: #ff4e3b;
 }
+
+/* Estilização para o player de áudio */
+.audio-player {
+  margin-top: 30px;
+  background-color: #ffe4b5; /* Um tom suave de bege para combinar */
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+audio {
+  width: 100%;
+  margin-top: 10px;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #ff6f61;
+  border-radius: 10px;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+  color: white;
+}
+
+audio:hover {
+  border: 2px solid #ff4e3b;
+  transition: border 0.3s ease;
+}
